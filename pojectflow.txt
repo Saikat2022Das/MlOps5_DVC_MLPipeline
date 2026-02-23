@@ -65,7 +65,7 @@ params = load_params('params.yaml')['model_building']
 -------------------------------------------------------------------------------
 # This all are we add in model_evaluation.py script.
 dvclive code block:
-1> import dvclive and yaml:
+1> Import below libraries:  
 from dvclive import Live
 import yaml
 2> Add the load_params function and initiate "params" var in main
